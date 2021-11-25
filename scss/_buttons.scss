@@ -1,0 +1,43 @@
+// Buttons style sheet
+
+
+.btn{
+    display: inline-flex;
+    font-family: $secondary-font;
+    font-weight: $font-400;
+
+    &-small{
+        padding: 0.8rem 0.92rem;
+        font-size: $font-small;
+        border-radius: 0.25rem;
+    }
+    
+    &-normal{
+        padding: 0.92rem 1.5rem;
+        font-size: $font-normal;
+        border-radius: 0.62rem;
+    }
+    
+    &-large{
+        padding: 1.3rem 2.5rem;
+        font-size: $font-large;
+        border-radius: 0.92rem;
+    }
+
+    &-blue{
+        color: $white;
+        border: 0.12rem solid $blue;
+        background-color: $blue;
+        
+        &:hover{
+            border: 0.12rem solid $blue-300;
+            background-color: $blue-400;
+        }
+    }
+
+    &-blue-outline{
+        color: $blue;
+        border: 0.12rem solid $blue;
+        background-color: none;
+    }
+}

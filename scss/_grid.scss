@@ -1,0 +1,16 @@
+//Grid simple system
+
+
+.grid{
+    display: grid;
+}
+
+.col{
+    width: auto;
+    height: auto;
+
+    &-xl-1, &-xs-1{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}

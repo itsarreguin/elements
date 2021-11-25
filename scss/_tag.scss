@@ -1,0 +1,59 @@
+//Tags style sheet
+
+.tag{
+    display: inline-flex;
+    padding: 2px 6px;
+    font-family: $secondary-font;
+    font-size: $font-small;
+    font-weight: $font-200;
+
+    &-blue{
+        background-color: $blue-100;
+        color: $blue-300;
+    }
+
+    &-red{
+        background-color: $red-100;
+        color: $red-300;
+    }
+    
+    &-purple{
+        background-color: $purple-100;
+        color: $purple-300;
+    }
+    
+    &-yellow{
+        background-color: $yellow-100;
+        color: $yellow-400;
+    }
+    
+    &-green{
+        background-color: $green-100;
+        color: $green;
+    }
+    
+    &-orange{
+        background-color: $orange-100;
+        color: $orange;
+    }
+    
+    &-pink{
+        background-color: $pink-100;
+        color: $pink-300;
+    }
+    
+    &-grey{
+        background-color: $white-100;
+        color: $grey-300;
+    }
+    
+    &-dark{
+        background-color: $grey;
+        color: $black;
+    }
+    
+    &-light{
+        background-color: $white-100;
+        color: $grey-100;
+    }
+}

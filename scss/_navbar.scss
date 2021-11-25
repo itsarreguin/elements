@@ -1,0 +1,43 @@
+// Navigation bar style 
+.nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 24px 0px;
+    z-index: 100;
+
+    &-light{
+        background-color: $white-op1;
+        backdrop-filter: blur-300;
+        border-bottom: $grey-100
+    }
+
+    &-dark{
+        background-color: $black-op1;
+        backdrop-filter: blur-300;
+        border-bottom: $black-400;
+    }
+
+    &-brand{
+        position: absolute;
+        width: 138px;
+        height: 30px;
+        background-image: url(../media/elements/imagotype/svg/elements.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    &-link{
+        font-family: $secondary-font;
+        font-size: $navlink;
+        font-weight: $font-400;
+        margin: 0px 15px;
+    }
+
+    &-icon{
+        width: 15px;
+        fill: $black;
+    }
+}

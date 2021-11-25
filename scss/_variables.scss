@@ -1,0 +1,146 @@
+// All variables style sheet
+
+
+//Default colors
+$white:                             #FFFFFF;
+$black:                             #000000;
+$grey:                              #BBBBBB;
+$dark:                              #0E1014;
+$blue:                              #002FC1;
+$red:                               #C10000;
+$purple:                            #3500A8;
+$yellow:                            #DCEE00;
+$green:                             #0EB001;
+$orange:                            #E76B16;
+$pink:                              #E500D3;
+
+//White variants
+$white-100:                         #FCFCFC;
+$white-200:                         #F4F4F4;
+$white-300:                         #EFEFEF;
+$white-400:                         #EAEAEA;
+
+//Black variants
+$black-100:                         #0B0B0B;
+$black-200:                         #101010;
+$black-300:                         #1B1B1B;
+$black-400:                         #242424;
+
+//Grey variants
+$grey-100:                          #A9A9A9;
+$grey-200:                          #909090;
+$grey-300:                          #717171;
+$grey-400:                          #4B4B4B;
+
+//Blue variants
+$blue-100:                          #EBF0FF;
+$blue-200:                          #3C7EFF;
+$blue-300:                          #1F55FF;
+$blue-400:                          #001C74;
+
+//Red variants
+$red-100:                           #FFEBEB;
+$red-200:                           #FF3737;
+$red-300:                           #FF0000;
+$red-400:                           #720000;
+
+//Purple variants
+$purple-100:                        #F4EFFF;
+$purple-200:                        #834AFF;
+$purple-300:                        #5000FF;
+$purple-400:                        #210067;
+
+//Yellow variants
+$yellow-100:                        #FDFFE7;
+$yellow-200:                        #FBFF44;
+$yellow-300:                        #DDD400;
+$yellow-400:                        #BCC000;
+
+//Green variants
+$green-100:                         #EBFFEA;
+$green-200:                         #4EFF40;
+$green-300:                         #10DB00;
+$green-400:                         #076000;
+
+//Orange variants
+$orange-100:                        #FFE6D6;
+$orange-200:                        #FF9348;
+$orange-300:                        #FF8A00;
+$orange-400:                        #9F5600;
+
+//Pink variants
+$pink-100:                          #FFE8FD;
+$pink-200:                          #FF51F1;
+$pink-300:                          #FF00E5;
+$pink-400:                          #8C027E;
+
+//Opacity colors
+$white-op1:                         rgba(255, 255, 255, 0.85);
+$white-0p2:                         rgba(255, 255, 255, 0.65);
+$black-0p1:                         rgba(0, 0, 0, 0.65);
+$black-0p2:                         rgba(0, 0, 0, 0.65);
+
+//Blur backdrops
+$blur-100:                            blur(5px);
+$blur-200:                            blur(10px);
+$blur-300:                            blur(15px);
+$blur-400:                            blur(20px);
+$blur-500:                            blur(25px);
+$blur-600:                            blur(30px);
+$blur-700:                            blur(35px);
+$blur-800:                            blur(40px);
+$blur-900:                            blur(45px);
+$blur-1000:                           blur(50px);
+
+
+
+
+// Fonts general styles
+
+$primary-font:                        'Rubik', sans-serif;
+$secondary-font:                      'Outfit', sans-serif;
+
+//Headings font sizes
+$h1-size:                             2.8rem;
+$h2-size:                             2.1rem;
+$h3-size:                             1.75rem;
+$h4-size:                             1.25rem;
+$h5-size:                             1.12rem;
+$h6-size:                             1rem;
+
+//Paragraph sizes
+$p1-size:                             1rem;
+$p2-size:                             0.87rem;
+$p3-size:                             0.75rem;
+
+//Link font size
+$navlink:                             1rem;
+$footerlink:                          1rem;
+
+//Buttons font sizes
+$font-small:                          0.75rem;
+$font-normal:                         0.92rem;
+$font-large:                          1.12rem;
+
+// Font weight
+$font-100:                            100;
+$font-200:                            200;
+$font-300:                            300;
+$font-400:                            400;
+$font-500:                            500;
+$font-600:                            600;
+$font-700:                            700;
+$font-800:                            800;
+$font-900:                            900;
+
+
+
+//Shadows
+$shadow-100: 0px 0px 40px rgba(0, 0, 0, 0.12);
+$shadow-200: 0px 4px 10px rgba(0, 0, 0, 0.2);
+$shadow-300: 0px 20px 60px rgba(0, 0, 0, 0.12);
+$shadow-400: 0px 25px 56px rgba(0, 0, 0, 0.15);
+$shadow-500: -20px 28px 45px rgba(0, 0, 0, 0.1);
+$shadow-600: 20px 28px 45px rgba(0, 0, 0, 0.15);
+$shadow-700: -20px -20px 45px rgba(0, 0, 0, 0.15);
+$shadow-800: 20px -20px 45px rgba(0, 0, 0, 0.15);
