@@ -1,0 +1,21 @@
+{
+    "name": "elements",
+    "version": "1.0.0",
+    "description": "Elements made with Pug and SASS by @itsarreguin",
+    "homepage": "itsarreguin.github.io/elements",
+    "repository": "https://www.github.com/itsarreguin/elements",
+    "license": "MIT",
+    "author": "Brandon Arreguin @itsarreguin <arreguin.xyz>",
+    "keywords": [
+        "css",
+        "scss",
+        "css3",
+        "sass",
+        "pug",
+        "html",
+        "html5"
+    ],
+    "dependencies": {
+        "normalize.css": "~8.0.1"
+    }
+}
