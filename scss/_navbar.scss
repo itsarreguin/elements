@@ -1,4 +1,6 @@
-// Navigation bar style 
+// Navigation bar style
+
+
 .nav{
     top: 0;
     left: 0;
@@ -10,13 +12,25 @@
     &-light{
         background-color: $white-op1;
         backdrop-filter: blur-300;
-        border-bottom: $grey-100
+        border-bottom: $grey-100;
+
+        &-unordered-list{
+            li, a, span{
+                color: $black;
+            }
+        }
     }
 
     &-dark{
         background-color: $black-op1;
         backdrop-filter: blur-300;
         border-bottom: $black-400;
+
+        &-unordered-list{
+            li, a, span{
+                color: $white;
+            }
+        }
     }
 
     &-brand{

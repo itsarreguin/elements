@@ -5,6 +5,7 @@
     display: inline-flex;
     font-family: $secondary-font;
     font-weight: $font-400;
+    transition: 0.3s ease;
 
     &-small{
         padding: 0.8rem 0.92rem;
@@ -30,14 +31,90 @@
         background-color: $blue;
         
         &:hover{
-            border: 0.12rem solid $blue-300;
+            border: 0.12rem solid $blue-400;
             background-color: $blue-400;
         }
     }
+
+    &-red{
+        color: $white;
+        border: 0.12rem solid $red;
+        background-color: $red;
+
+        &:hover{
+            border: 0.12rem solid $red-400;
+            background-color: $red-400
+        }
+    }
+
+    &-purple{
+        color: $white;
+        border: 0.12rem solid $purple;
+        background-color: $purple;
+
+        &:hover{
+            border: 0.12rem solid $purple-400;
+            background-color: $purple-400
+        }
+    }
+
+    &-yellow{
+        color: $black;
+        border: 0.12rem solid $yellow;
+        background-color: $yellow;
+
+        &:hover{
+            border: 0.12rem solid $yellow-400;
+            background-color: $yellow-400
+        }
+    }
+
 
     &-blue-outline{
         color: $blue;
         border: 0.12rem solid $blue;
         background-color: none;
+
+        &:hover{
+            color: $white;
+            border: 0.12rem solid $blue-400;
+            background-color: $blue-400
+        }
+    }
+
+    &-red-outline{
+        color: $red;
+        border: 0.12rem solid $red;
+        background-color: none;
+
+        &:hover{
+            color: $white;
+            border: 0.12rem solid $red-400;
+            background-color: $red-400
+        }
+    }
+
+    &-purple-outline{
+        color: $purple;
+        border: 0.12rem solid $purple;
+        background-color: none;
+
+        &:hover{
+            color: $white;
+            border: 0.12rem solid $purple-400;
+            background-color: $purple-400
+        }
+    }
+
+    &-yellow-outline{
+        color: $yellow;
+        border: 0.12rem solid $yellow;
+        background-color: none;
+
+        &:hover{
+            color: $black;
+            border: 0.12rem solid $yellow-400;
+            background-color: $yellow-400
+        }
     }
 }
