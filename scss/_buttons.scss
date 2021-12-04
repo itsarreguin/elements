@@ -5,6 +5,8 @@
     display: inline-flex;
     font-family: $secondary-font;
     font-weight: $font-400;
+    border: none;
+    background-color: transparent;
     transition: 0.3s ease;
 
     &-small{
