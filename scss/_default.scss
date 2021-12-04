@@ -11,36 +11,44 @@
 
 h1, h2, h3, h4, h5, h6{
     font-family: $primary-font;
+}
 
-    h1{
-        font-size: $h1-size;
-    }
+h1{
+    font-size: $h1-size;
+}
 
-    h2{
-        font-size: $h2-size;
-    }
+h2{
+    font-size: $h2-size;
+}
 
-    h3{
-        font-size: $h3-size;
-    }
+h3{
+    font-size: $h3-size;
+}
 
-    h4{
-        font-size: $h4-size;
-    }
+h4{
+    font-size: $h4-size;
+}
 
-    h5{
-        font-size: $h5-size;
-    }
+h5{
+    font-size: $h5-size;
+}
 
-    h6{
-        font-size: $h6-size;
-    }
+h6{
+    font-size: $h6-size;
 }
 
 
 li, a, span, input, label,
 textarea, button, p{
     font-family: $secondary-font;
+}
+
+.dark-txt{
+    color: $dark;
+}
+
+.light-txt{
+    color: $white;
 }
 
 
@@ -67,7 +75,7 @@ textarea, button, p{
 }
 
 .auto{
-    margin: auto;
+    margin: 0px auto;
 }
 
 

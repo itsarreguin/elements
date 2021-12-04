@@ -14,7 +14,7 @@
         backdrop-filter: blur-300;
         border-bottom: $grey-100;
 
-        &-unordered-list{
+        .unordered-list{
             li, a, span{
                 color: $black;
             }
@@ -26,7 +26,7 @@
         backdrop-filter: blur-300;
         border-bottom: $black-400;
 
-        &-unordered-list{
+        .unordered-list{
             li, a, span{
                 color: $white;
             }
