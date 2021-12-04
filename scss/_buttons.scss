@@ -119,4 +119,16 @@
             background-color: $yellow-400
         }
     }
+
+    &-green-outline{
+        color: $green;
+        border: 0.12rem solid $green;
+        background-color: none;
+
+        &:hover{
+            color: $white;
+            border: 0.12rem solid $green-400;
+            background-color: $green-400
+        }
+    }
 }
