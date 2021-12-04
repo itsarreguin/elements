@@ -7,10 +7,14 @@ html(lang="en")
 
         include pug/navbar.pug
 
-        div.row
+        div.row.flex
 
-            include pug/buttons.pug
+            include pug/sidebar.pug
 
-            include pug/inputs.pug
+            section.elements-column
+                
+                include pug/buttons.pug
+
+                include pug/inputs.pug
 
         include pug/footer.pug
