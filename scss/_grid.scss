@@ -2,15 +2,46 @@
 
 
 .grid{
+    width: 100%;
+    height: auto;
     display: grid;
+    gap: 20px;
 }
 
 .col{
-    width: auto;
+    width: 100%;
     height: auto;
 
-    &-xl-1, &-xs-1{
+    &-xl-1{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+    }
+
+    &-xl-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-xl-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .col{
+    
+        &-xs-1{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 300px){
+    .col{
+    
+        &-xs-1{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
     }
 }
