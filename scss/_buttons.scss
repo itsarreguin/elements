@@ -10,63 +10,63 @@
     transition: 0.3s ease;
 
     &-small{
-        padding: 0.8rem 0.92rem;
+        padding: 8px 12px;
         font-size: $font-small;
-        border-radius: 0.25rem;
+        border-radius: 4px;
     }
     
     &-normal{
-        padding: 0.92rem 1.5rem;
+        padding: 14px 25px;
         font-size: $font-normal;
-        border-radius: 0.62rem;
+        border-radius: 8px;
     }
     
     &-large{
-        padding: 1.3rem 2.5rem;
+        padding: 20px 40px;
         font-size: $font-large;
-        border-radius: 0.92rem;
+        border-radius: 10px;
     }
 
     &-blue{
         color: $white;
-        border: 0.12rem solid $blue;
+        border: 2px solid $blue;
         background-color: $blue;
         
         &:hover{
-            border: 0.12rem solid $blue-400;
+            border: 2px solid $blue-400;
             background-color: $blue-400;
         }
     }
 
     &-red{
         color: $white;
-        border: 0.12rem solid $red;
+        border: 2px solid $red;
         background-color: $red;
 
         &:hover{
-            border: 0.12rem solid $red-400;
+            border: 2px solid $red-400;
             background-color: $red-400
         }
     }
 
     &-purple{
         color: $white;
-        border: 0.12rem solid $purple;
+        border: 2px solid $purple;
         background-color: $purple;
 
         &:hover{
-            border: 0.12rem solid $purple-400;
+            border: 2px solid $purple-400;
             background-color: $purple-400
         }
     }
 
     &-yellow{
         color: $black;
-        border: 0.12rem solid $yellow;
+        border: 2px solid $yellow;
         background-color: $yellow;
 
         &:hover{
-            border: 0.12rem solid $yellow-400;
+            border: 2px solid $yellow-400;
             background-color: $yellow-400
         }
     }
@@ -74,60 +74,60 @@
 
     &-blue-outline{
         color: $blue;
-        border: 0.12rem solid $blue;
+        border: 2px solid $blue;
         background-color: none;
 
         &:hover{
             color: $white;
-            border: 0.12rem solid $blue-400;
+            border: 2px solid $blue-400;
             background-color: $blue-400
         }
     }
 
     &-red-outline{
         color: $red;
-        border: 0.12rem solid $red;
+        border: 2px solid $red;
         background-color: none;
 
         &:hover{
             color: $white;
-            border: 0.12rem solid $red-400;
+            border: 2px solid $red-400;
             background-color: $red-400
         }
     }
 
     &-purple-outline{
         color: $purple;
-        border: 0.12rem solid $purple;
+        border: 2px solid $purple;
         background-color: none;
 
         &:hover{
             color: $white;
-            border: 0.12rem solid $purple-400;
+            border: 2px solid $purple-400;
             background-color: $purple-400
         }
     }
 
     &-yellow-outline{
         color: $yellow;
-        border: 0.12rem solid $yellow;
+        border: 2px solid $yellow;
         background-color: none;
 
         &:hover{
             color: $black;
-            border: 0.12rem solid $yellow-400;
+            border: 2px solid $yellow-400;
             background-color: $yellow-400
         }
     }
 
     &-green-outline{
         color: $green;
-        border: 0.12rem solid $green;
+        border: 2px solid $green;
         background-color: none;
 
         &:hover{
             color: $white;
-            border: 0.12rem solid $green-400;
+            border: 2px solid $green-400;
             background-color: $green-400
         }
     }
