@@ -25,7 +25,7 @@ Install sass in all your computer:
 npm install sass -g
 ```
 
-Or nnstall sass in the project:
+Or install sass in the project:
 
 ```
 npm install sass
